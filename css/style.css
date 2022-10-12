@@ -9,7 +9,7 @@
   .scroll-row {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-  }
+}
 
 body {
     width: 414px;
@@ -21,6 +21,7 @@ body {
 }
 
 /*////////////////////// TOP - MENU //////////////////////*/
+
 .top-menu{
     position: fixed;
     left: 0;
@@ -102,6 +103,23 @@ body {
     flex: 0 0 auto;
 }
 
+.itemRollPratoSelecionado{
+    border: solid 5px #32B72F;
+    background-image: url("../arquivos/check.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 95%;
+    position: relative;
+}
+
+.icon-checked{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    bottom: 5px;
+    right: 5px;
+}
+
 .itemRollBebida{
     margin-right: 16px;
     width: 172px;
@@ -170,6 +188,7 @@ body {
 }
 
 /*////////////////////// BOTTOM - MENU //////////////////////*/
+
 .bottom-menu{
     position: fixed;
     left: 0;
