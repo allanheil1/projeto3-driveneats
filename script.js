@@ -281,6 +281,6 @@ function fecharPedido(){
     +"\n- Sobremesa: " + sobremesa 
     +"\nTotal: " + valorTotal;
 
-    alert(mensagem);
+    window.open("https://wa.me/+5521999999999?text="+encodeURIComponent(mensagem));
 
 }
