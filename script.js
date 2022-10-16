@@ -9,6 +9,8 @@ let valorBebida;
 let valorSobremesa;
 let valorTotal;
 let mensagem;
+let nome;
+let endereço;
 
 function escolherPrato1(){
 
@@ -272,6 +274,9 @@ function escolherSobremesa4(){
 }
 
 function fecharPedido(){
+    
+    nome = prompt("Qual seu nome?");
+    endereco = prompt("Qual seu endereço?");
 
     valorTotal = (valorPrato+valorBebida+valorSobremesa).toFixed(2);
 
@@ -279,8 +284,11 @@ function fecharPedido(){
     +"- Prato: " + prato
     +"\n- Bebida: " + bebida
     +"\n- Sobremesa: " + sobremesa 
-    +"\nTotal: " + valorTotal;
+    +"\nTotal: " + valorTotal
+    +"\n"
+    +"\n Nome: " + nome
+    +"\n Endereço: " + endereco;
 
-    window.open("https://wa.me/+5547988352587?text="+encodeURIComponent(mensagem));
+    window.open("https://wa.me/+5547991084377?text="+encodeURIComponent(mensagem));
 
 }
