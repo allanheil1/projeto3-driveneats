@@ -101,11 +101,11 @@ function escolherBebida1(){
     document.getElementById("bebida1").style.borderColor = "#32B72F";
     document.getElementById("checkBebida1").style.display = "flex";
     document.getElementById("bebida2").style.borderColor = "#FFFFFF";
-    document.getElementById("checkBebida1").style.display = "none";
+    document.getElementById("checkBebida2").style.display = "none";
     document.getElementById("bebida3").style.borderColor = "#FFFFFF";
-    document.getElementById("checkBebida1").style.display = "none";
+    document.getElementById("checkBebida3").style.display = "none";
     document.getElementById("bebida4").style.borderColor = "#FFFFFF";
-    document.getElementById("checkBebida1").style.display = "none";
+    document.getElementById("checkBebida4").style.display = "none";
 
     bebidaSelecionada = true;
     valorBebida = 5;
@@ -281,6 +281,6 @@ function fecharPedido(){
     +"\n- Sobremesa: " + sobremesa 
     +"\nTotal: " + valorTotal;
 
-    window.open("https://wa.me/+5521999999999?text="+encodeURIComponent(mensagem));
+    window.open("https://wa.me/+5547988352587?text="+encodeURIComponent(mensagem));
 
 }
